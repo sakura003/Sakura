@@ -5,7 +5,7 @@
 }
 
 .home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/japanese_food.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/japanese_food.jpg");
     background-size: cover;
     height: 721px;
 }
@@ -259,7 +259,7 @@ dd {
 }
 
 .booking {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("images/people.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("Images/people.jpg");
     height: 250px;
     background-size: cover;
     margin: 100px 0;
@@ -319,10 +319,16 @@ dd {
 
 .team-text {
     margin-top: 8px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
     font-family: 'Outfit', sans-serif;
     font-size: 17px;
     text-align: center;
+}
+
+.findd_moree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .find-more {
@@ -334,7 +340,6 @@ dd {
     font-family: 'Outfit', sans-serif;
     letter-spacing: 2px;
     padding: 15px;
-    margin-left: 260px;
 }
 
 .find-more:hover {
@@ -373,6 +378,12 @@ dd {
     box-shadow: 12px 12px 8px rgb(158, 154, 154);
 }
 
+.seee_moree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .see-more {
     border: 2px solid rgb(177, 105, 12);
     font-size: 13px;
@@ -383,7 +394,6 @@ dd {
     letter-spacing: 2px;
     text-align: center;
     padding: 15px;
-    margin-left: 660px;
 }
 
 .see-more:hover {
@@ -448,6 +458,12 @@ input[type=text], input[type=email], textarea {
     font-size: 16px;
 }
 
+.bookk_noww {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 input[type=submit] {
     padding: 12px 20px;
     border: 2px solid rgb(177, 105, 12);
@@ -458,7 +474,6 @@ input[type=submit] {
     letter-spacing: 2px;
     text-align: center;
     font-weight: bolder;
-    margin-left: 660px;
 } 
 
 .contact-form {
@@ -480,7 +495,8 @@ textarea {
 
 .footer1 {
     width: 100%;
-    background-color: rgb(167, 163, 163);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/bg_img.jpg");
+    background-size: cover;
     color: rgb(255, 255, 255);
     height: 300px;
 }
@@ -556,7 +572,7 @@ footer {
 }
 
 .ig:hover {
-    color: #8a3ab9;
+    color: #dd2a7b;
     transition: all 0.3s ease-in-out;
 }
 
